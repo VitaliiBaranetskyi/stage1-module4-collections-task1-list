@@ -13,6 +13,7 @@ class ListComparator implements Comparator<String> {
     @Override
     public int compare(String a, String b) {
         int aInt = Integer.parseInt(a);
+
         int bInt = Integer.parseInt(b);
         int funcA = 5*aInt*aInt+3;
         int funcB = 5*bInt*bInt+3;
